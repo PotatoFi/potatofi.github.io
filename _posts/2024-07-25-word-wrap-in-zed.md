@@ -1,8 +1,8 @@
 ---
 title: Enabling Word Wrap in Zed
-date: 2024-07-25 20:10:00
+date: 2024-07-25 16:32:00
 categories: [Technology, Development]
-tags: [zed]
+tags: [development, zed]     # TAG names should always be lowercase
 ---
 
 Ever since Atom was retired, I've been using Zed as my go-to simple text editor. While editing Markdown for this blog, I was annoyed that Zed didn't seem to do word wrap, even though it understood that the file was Markdown format. Here's how I was able to enable it at the /project/ level.
