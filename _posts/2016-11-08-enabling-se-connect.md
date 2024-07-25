@@ -2,7 +2,7 @@
 title: Enabling Cisco SE-Connect With the GUI
 date: 2016-11-08 10:00:00
 categories: [Wi-Fi, Infrastructure]
-tags: [wi-fi, cisco, unfinished]     # TAG names should always be lowercase
+tags: [Wi-Fi, Cisco]     # TAG names should always be lowercase
 image:
   path: assets/enabling-se-connect/Chanalyzer.png
 ---
