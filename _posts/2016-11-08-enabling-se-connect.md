@@ -7,9 +7,6 @@ image:
   path: assets/enabling-se-connect/Chanalyzer.png
 ---
 
-> I originally wrote this in 2016, but rewrote and reformatted it on 2024-07-25 for my new blog.
-{: .prompt-info }
-
 There are plenty of guides out there that explain how to put a Cisco AP in SE-Connect mode via SSH, but what about the GUI?
 
 # Pre-Requisites

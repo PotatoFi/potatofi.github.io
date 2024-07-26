@@ -7,9 +7,6 @@ image:
   path: assets/airport-extreme-vlans/airport-extremes.jpg
 ---
 
-> I originally wrote this in 2019, but rewrote and reformatted it in 2024 for my new blog.
-{: .prompt-info }
-
 The short answer: yes!
 
 It's not secret that [I'm a huge fan of the Apple AirPort Extreme](https://twitter.com/Potato_Fi/status/1203456043058991104). Whenever friends and family have Wi-Fi problems at home, I get on Craigslist and buy a used Apple AirPort Extreme for them. I love their high-quality 3x3 radios, simplicity, and reliability.
