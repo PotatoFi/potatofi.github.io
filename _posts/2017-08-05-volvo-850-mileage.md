@@ -13,7 +13,7 @@ Fixing it costs a couple of bucks, but it's a pain. The dash has to come out, wh
 
 Pre-OBDII Volvo 850's (1993-1995) provide the ability to plug in a fly wire under the hood, press a special button pattern, and then watch an LED blink back the mileage, which is stored digitally in the gauge cluster. Then, you can fix the odometer gear, and roll up the mileage to the correct number in the process.
 
-Sadly, OBDII Volvo 850's (1996-1997) lack the fly wire, button, and LED. Fortunately, [there's a way to read the mileage through the OBDII port](http://jonesrh.info/volvo850/elm327_reads_volvo_850_mileage.html) with an ELM 237 Bluetooth OBDII reader, and an Android phone. This might be possible with iOS or with a terminal emulator in Windows, but I have an Android device, so that's the route I took.
+Sadly, OBDII Volvo 850's (1996-1997) lack the fly wire, button, and LED. Fortunately, [there's a way to read the mileage through the OBDII port](https://jonesrh.info/volvo850/elm327_reads_volvo_850_mileage.html) with an ELM 237 Bluetooth OBDII reader, and an Android phone. This might be possible with iOS or with a terminal emulator in Windows, but I have an Android device, so that's the route I took.
 
 # Reading the Mileage
 
@@ -46,7 +46,7 @@ B90300
 
 # Alternate Method
 
-On July 23, 2019 reader "jonesrh" left this comment:
+On July 23, 2019, "jonesrh" (who I linked to earlier in the article, and probably where I found out how to do this in the first place) left this comment:
 
 > The following sequence is more general purpose and works for both '96-'97 850 and '97-'98 S70/V70/C70/XC70, *and* it works for ELM327 v1.2 (and above):
 
@@ -65,4 +65,4 @@ ATSH 83 51 13
 B903
 ```
 
-Thanks for the advice, jonesrh!
+Thanks for the additional advice, and thank you very much for your original blog post, jonesrh!
