@@ -510,7 +510,7 @@ I resealed the holes with tape.
 
 Not expecting a miracle, I installed the drive and flipped the power switch. It didn't even spin up. I decided to pop a floppy disk in and let it boot up and hang out with me while I typed an update to the build log.
 
-![](assets/mac-classic-ii-restoration/94-no-boot.jpg]
+![](assets/mac-classic-ii-restoration/94-no-boot.jpg)
 
 And then, just for fun, I gave it a reboot after about 5 minutes of sitting idle. It ejected the floppy, and the hard disk spun up! It made a horrible grinding sound, which quickly subsided and was replaced with a high-pitch metal-on-metal sound - probably a r/w head skating on a platter. But to my amazement, it booted up! I couldn't believe it!
 
