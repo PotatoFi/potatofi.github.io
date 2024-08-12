@@ -2,7 +2,7 @@
 title: Minecraft on Windows XP
 date: 2024-08-11 20:30:00
 categories: [Technology, Vintage]
-tags: [Windows XP]
+tags: [Windows]
 image:
   path: assets/minecraft-on-windows-xp/minecraft-on-xp-preview.jpg
 ---
