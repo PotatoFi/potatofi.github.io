@@ -22,7 +22,7 @@ For Java, [this post on Reddit](https://www.reddit.com/r/windowsxp/comments/t5k3
 
 This version does give a warning about requiring a newer version of Windows, but installs without further complaint.
 
-![](assets/minecraft-on-windows-xp/xp-java-install.jpeg)
+![](assets/minecraft-on-windows-xp/xp-java-install.jpg)
 
 # Minecraft Launcher
 
@@ -30,4 +30,4 @@ To launch Minecraft, I had great success with the [latest version of MultiMC](ht
 
 That’s all it took! Now I just need to find a tree to punch.
 
-![](assets/minecraft-on-windows-xp/minecraft-on-xp.jpeg)
+![](assets/minecraft-on-windows-xp/minecraft-on-xp.jpg)
