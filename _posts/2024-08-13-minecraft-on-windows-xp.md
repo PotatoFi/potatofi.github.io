@@ -1,6 +1,6 @@
 ---
 title: Minecraft on Windows XP
-date: 2024-08-12 20:18:00
+date: 2024-08-13 18:18:00
 categories: [Technology, Vintage]
 tags: [Windows XP]
 image:
