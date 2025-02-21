@@ -4,7 +4,7 @@ date: 2025-02-20 18:25:00
 categories: [Wi-Fi, Tools]
 tags: [Wi-Fi, Development]
 image:
-  path: assets/spectrum-viewer/spectrum-viewer-preview.png
+  path: assets/spectrum-viewer/spectrum-chart-preview.png
 ---
 
 The radio spectrum is a complicated place, with many overlapping technologies and bands that vary depending on the regulatory domain. The radio spectrum is much too complicated to represent on a static chart, so I've always wanted to create something interactive to represent it.
@@ -23,7 +23,7 @@ So, over the past couple of months, I built something! What I've come up with is
 2. Turn on 20 MHz channels, 2.4 GHz overlapping channels, Bluetooth, _and_ Zigbee. Check out how crazy the 2.4 GHz band is! ![](assets/spectrum-viewer/busy-2-GHz.png)
 3. Visit the 900 MHz band, turn off the Japanese regulatory domain, and all of the 802.11ah channel widths. As far as I know, this is the very first 802.11ah channel chart out there, and I'm pretty proud of that. 🙂 ![](assets/spectrum-viewer/900-mhz.png)
 4. In the 900 MHz band, turn the Japanese regulatory domain back on. Check out how the channel centers are off by 500 KHz! It's so unsatisfying! Sorry that I just ruined your day.
-5. Redeem the day by using the **Entire spectrum* shortcut. Check out how much unlicensed room we have for activities!
+5. Redeem the day by using the **Entire spectrum** shortcut. Check out how much unlicensed room we have for activities!
 6. If you have an iPhone, use the **Share** > **Add to Home Screen** button to create a shortcut. I spent some extra time making it feel good on iPhone, complete with a nice icon. ![](assets/spectrum-viewer/iphone.png)
 
 # How to use it
@@ -70,11 +70,19 @@ Please don't copy my code and redistribute it, or host it anywhere else. I might
 
 # Challenges
 
-Pretty early on, I made the descision to build it in vanilla HTML, CSS, and JavaScript. I was hoping to use CSS divs for the channel labels, so I could use CSS for mouseovers, sorting, and other interactivity, the the performance was abysmal. Because of that, I fell back to pure JavaScript. It's pretty performant (even with my sphagetti code), and even technically works on my Windows XP netbook. That said, I do have some code optimizations planned.
+## "Technology Stack"
+
+Pretty early on, I made the descision to build it in vanilla HTML, CSS, and JavaScript. I was hoping to use CSS divs for the channel labels, so I could use CSS for mouseovers, sorting, and other interactivity, the the performance was abysmal. Because of that, I fell back to pure JavaScript. While it's pretty performant (even with my spaghetti code), the downside is that interactivity is much more difficult. But hey, it techically works on my Windows XP netbook!
+
+## 802.11ah Channel Charts
+
+I had to dig around in the 802.11-2020 spec quite a bit to figure out the channel charts. The spec is _just_ cryptic enough that I fed some of it into Claude.ai to make sure we agreed on how the channels work. The result is what I am pretty sure is the very first 802.11ah chart that is openly available on the internet. I'm pretty proud of that.
+
+![](assets/spectrum-viewer/80211ah-900-mhz-channels.png)
 
 # Future Plans
 
-For now, I've worked on this project alone to learn HTML, CSS, and JavaScript, and to have something creative to work on. There has been some interest by my employer (Hamina Wireless) to put some real development effort behind the idea, and make an official "Hamina Spectrum Chart". Maybe that will happen.
+For now, I've worked on this project alone to learn HTML, CSS, and JavaScript, and to have something creative to work on. There has been some interest by my employer ([Hamina Wireless](https://www.hamina.com/)) to put some real development effort behind the idea, and make an official "Hamina Spectrum Chart". Maybe that will happen.
 
 ## Planned Features
 
@@ -82,10 +90,13 @@ I might add some of these features, but I am a novice developer. We'll see what 
 
 * Overhaul the band label system, as there are tons of band labels out there that I'd like to apply but the system isn't flexible enough.
 * Figure out how to add technologies without having to write tons of bespoke and repeat code for them. This is mentally blocking me from adding CBRS/private celluar right now, for example.
+* Use system resources more efficiently, e.g. don't constantly redraw the screen if the user isn't doing anything.
 * Add more technologies, such as cellular bands (I have a pretty extensive list from Keith at Wireless LAN Pros).
 * Show subcarriers for 40, 80, and 160 MHz Wi-Fi channels.
+* Add 320 MHz Wi-Fi channels. 🤪
 * Show 802.11ax subcarriers.
 * Mouseover inspector that draws a vertical line and shows the current frequency.
+* Add an option to display the center frequency on each channel label.
 * Store settings (such as frequency, zoom level, and selected options) in a cookie.
 * Put all of the labels for a particular technology on the same row (I had this in the past but the code was mind-bogglingly complicated and hard to work with).
 * Limit panning to the viewable spectrum.
@@ -95,7 +106,5 @@ I might add some of these features, but I am a novice developer. We'll see what 
 ## Feature Requests
 
 If you have a feature request, feel free to [open an issue in GitHub](https://github.com/PotatoFi/spectrum/issues). Just temper your expectations - I am a novice developer, and am already running into the edges of my capabilities a bit.
-
-Let's try to use the tools built into GitHub for that. Remember that I am a novice dev, learning as I go, so some features might be outside of my capabilities.
 
 Thanks for checking out the thing that I made, I hope you like it!
