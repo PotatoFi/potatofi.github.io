@@ -4,7 +4,7 @@ date: 2025-06-22 14:52:36
 categories: [Technology, Repair]
 tags: [Pebble]
 image:
-  path: assets/pebble-classic-battery/pebble-classic-battery-replacement.jpeg
+  path: assets/pebble-classic-battery-replacement/pebble-classic-battery-replacement.jpeg
 ---
 
 On Christmas day in 2013, I found a black Pebble smartwatch (now known as the Pebble Classic) under the Christmas tree. I was super excited about wearables such as Google Glass, and was thrilled to receive a Pebble from my wife for Christmas. Fast forward to 2025, and many things have happened, including Pebble going out of business and eventually [coming back from the grave as Core Devices](https://repebble.com/), with my wife and I placing an order for four (yes, four!) watches between the two of us.
@@ -48,7 +48,7 @@ Note: The pictures don't quite show the same order as the text. I'd recommend fo
 
 4. Use a pair of flush cutters or scissors to cut the battery flex cable, then remove the battery.
 
-5. Use a plastic spudger to pop up the flex cable connector, which is located near the haptic motor.
+5. Use a plastic spudger to pop up the flex cable connector, which is located near the haptic motor. Optionally, you can also bend the antenna part of the flex cable up and out of the way; it uses a simple spring-loaded connection.
 
 6. Next, you'll need to remove the inner assembly, which consists a flex cable around the outside, a plastic frame, the PCB, and the backlight diffuser. Flexing it inwards at various points will help release the 5 or 6 clips, which is easier with the battery removed. Use a pointed spudger or plastic tool between the watch body and inner assembly to release the clips and work it out.     _Note: This differs from Paul's video quite a bit; he pries it out with a metal tool from the bottom. I did this with another watch but I just don't love it as a strategy. I need to do my clip-release method on another watch to make sure it works._
 
@@ -88,7 +88,7 @@ Note: The pictures don't quite show the same order as the text. I'd recommend fo
 
 15. Place the Zebra strip back on the inner frame assembly, and place the inner frame assembly back on the work surface, battery-side down.
 
-16. Carefully place the watch body (face-up) down on top of the inner frame assembly, and push the two parts together, making sure the Zebra strip stays put as much as possible.
+16. Carefully place the watch body (face-up) down on top of the inner frame assembly, and push the two parts together, making sure the Zebra strip stays put as much as possible. _Warning: When you flip the watch back over to fully seat the inner frame assembly inside the watch body, pay very close attention to the spring connections between the inner frame assembly and the watch body that are used for charging, you really don't want to bend those!_
 
 17. You should now be able to power on the watch, and test it! If your attempt is anything like mine, you might see some garbage on the screen, like this. You might be tempted to take the watch back apart, but don't! Instead, press **Back**, **Up**, and **Select** simultaneously to reboot the watch.
 
