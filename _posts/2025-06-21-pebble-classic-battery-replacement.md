@@ -84,7 +84,7 @@ Note: The pictures don't quite show the same order as the text. I'd recommend fo
 
     ![](assets/pebble-classic-battery-replacement/step-13-fold-battery-wires.jpeg)
 
-14. Reconnect the flex cable. _Note: I used some kapton tape to hold the connector down, but on reassembly noticed that the back cover has a small tap to hold the connector in place, so I don't think the tape is nescessary._
+14. Reconnect the flex cable. _Note: I used some kapton tape to hold the connector down, but on reassembly noticed that the back cover has a small tab to hold the connector in place, so I don't think the kapton tape is nescessary._
 
 15. Place the Zebra strip back on the inner frame assembly, and place the inner frame assembly back on the work surface, battery-side down.
 
