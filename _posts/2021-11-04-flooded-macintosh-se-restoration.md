@@ -1,18 +1,23 @@
 ---
 title: Flooded Macintosh SE Restoration
-date: 2021-11-04 14:52:36
+date: 2021-11-14 12:00:00
 categories: [Technology, Vintage]
 tags: [Apple, Macintosh, Restoration]
 image:
-  path: assets/mac-classic-ii-restoration/mac-classic-ii-restoration-preview.jpg
+  path: assets/flooded-mac-se-restoration/flooded-mac-se-restoration-preview.jpg
 ---
 
-Last year, a friend of mine messaged me saying that he had "a bunch of old Apple stuff" for me. Apparently, it had all come out of his parent's basement (a factor that will come into play later). In the pile was a little Macintosh SE.
+I originally [wrote and posted this restoration log on TinkerDifferent](https://tinkerdifferent.com/threads/restoration-macintosh-se-with-water-damage.291/), but have decided to duplicate all of my restoration logs to my blog for centralization. While I updated this post on 2025-07-06, the original restoration was completed in 2021. Thank you very much to TinkerDifferent for hosting my restoration log, and cheering me on.
 
-More specifically, a Macintosh SE FDHD! The FDHD stands for "Floppy Drive, High Density" (or something like that), and can read 1.44 mb floppy disks. Not only does it have a high-capacity floppy drive - it also has a ROM that can take advantage of it, which makes it more special and usable than a typical Macintosh SE. Later versions of this were labeled "Macintosh SuperDrive", which I think is super cool.
+## Introduction
 
-## Damage Assessment
+Last year, a friend of mine messaged me saying that he had "a bunch of old Apple stuff" for me. Apparently, it had all come out of his parent's basement (a factor that will come into play later). In the pile was a little Macintosh SE FDHD.
+
 ![](assets/flooded-mac-se-restoration/IMG_0310.jpg)
+
+The FDHD stands for "Floppy Drive, High Density" (or something like that), and can read 1.44 mb floppy disks. Not only does it have a high-capacity floppy drive - it also has a ROM that can take advantage of it, which makes it more special and usable than a typical Macintosh SE. Later versions of this were labeled "Macintosh SuperDrive", which I feel was a nice branding improvement.
+
+## Teardown
 
 Here's what we have to work with. It is extremely dirty, and the front is obviously very, very scratched. At this point, I couldn't tell the condition of the CRT because of all of the dirt. This is by far the worst-looking compact Mac I've ever seen.
 
@@ -30,7 +35,7 @@ Expecting the worst, I grabbed my impact driver and broke the screws loose. I wa
 
 ![](assets/flooded-mac-se-restoration/IMG_0315.jpg)
 
-I wiggled the back bucket off, and this is what I was greeted with. Yikes. I seems that this machine sat in some water for awhile. I know it was in a 1940's basement for a couple of decades before coming to me - it seems that there must have been a flood at some point!
+I wiggled the back bucket off, and this is what I was greeted with. Yikes. I seems that this machine sat in some water for awhile. I learned that the machine was in a 1940's basement that flooded a couple of decades before the machine came to me.
 
 ![](assets/flooded-mac-se-restoration/IMG_0316.jpg)
 
@@ -50,9 +55,9 @@ With the analog board removed, let's show another photo, just to drive home how 
 
 ![](assets/flooded-mac-se-restoration/IMG_0320.jpg)
 
-## Logic Board Removal
+### Logic Board Removal
 
-Next, I took the machine out to the garage to try to figure out how to get the logic board out. I don't have any photos of this, but I managed to get a screwdriver down to the battery and pop it out of the holder. Amazingly, it hadn't blown up.
+Next, I took the machine out to the garage to try to figure out how to get the logic board out. I don't have any photos of this, but I managed to get a screwdriver down to the battery and pop it out of the holder. Amazingly, it hadn't blown up. If you're interested in vintage Apple machines, know that batteries are the number 1 killers of these machine. If you haven't removed the battery from your vintage Mac, stop reading and go do it *right now*.
 
 I soaked the logic board rails in some WD-40 to try to loosen things up, and let it sit for a few hours.
 
@@ -78,15 +83,15 @@ I stuck the chassis screws in as well. It's fun to watch the vinegar work on the
 
 ![](assets/flooded-mac-se-restoration/IMG_0332.jpg)
 
-I was heckin' concerned about the amount of rust around he I/O ports, but let the vinegar do the work.
+I found the rust around the I/O ports to be particularly concerning, but decided to let the vinegar work.
 
 ![](assets/flooded-mac-se-restoration/IMG_0331.jpg)
 
-I scrubbed the board with a toothbrush after a couple of hours, and was surprised at how much it cleaned up. But there was still a ton of rust around the I/O ports, so my wife helped me find a creative solution to submerge the I/O ports with the limited amount of vinegar that we had on hand at the time (shortage due to coronavirus).
+I scrubbed the board with a toothbrush after a couple of hours, and was surprised at how much it cleaned up. But there was still a ton of rust around the I/O ports, so my wife helped me find a creative solution to submerge the I/O ports with the limited amount of vinegar that we had on hand at the time (with the shortage due to COVID-19).
 
 ![](assets/flooded-mac-se-restoration/IMG_0333.jpg)
 
-## Front Teardown
+### Logic Board Shield Removal
 
 After sitting in the vinegar all Sunday afternoon, I pulled the logic board out and took it back to the sink for a soap and water scrub. It's funny, a few years ago I would have never dreamed of putting a circuit board in the kitchen sink, much less hitting them with the garden hose like I did this with this one. Now... I scrub them down with soap and water all of the time.
 
@@ -116,13 +121,17 @@ With all of the solder removed, and the tabs straightened, it was time to remove
 
 ![](assets/flooded-mac-se-restoration/IMG_0347.jpg)
 
-## Chassis Rust Removal
+## Cleaning
 
-Next, I took a small wire wheel on a cordless drill to both the shield and chassis. Big improvement, but there were a lot of small corners that I can't get into. I think sandblasting will be the ultimate solution here, but I need to find someone with a sandblasting cabinet.
+Next, I tackled getting the whole machine cleaned up, starting with the chassis.
+
+### Chassis
+
+I took a small wire wheel on a cordless drill to both the shield and chassis. While this was a big improvement, but there were a lot of small corners that I couldn't get into.
 
 ![](assets/flooded-mac-se-restoration/IMG_0348.jpg)
 
-I would have liked to submerge it in vinegar for a few hours, but at the time, we were super low on vinegar. So, I decided to try something different: hot sauce, which is full of vinegar! I happened to have a bottle of "Mule Sauce" from Sticker Mule. Fortunately for the project, the hot sauce is just as bad as Sticker Mule's politics, so it was a perfect candidate for this project. And besides, we're a Tabasco and Sriracha family.
+I would have liked to submerge it in vinegar for a few hours, but at the time, we were super low on vinegar. So, I decided to try something different: hot sauce, which is full of vinegar! I happened to have a bottle of "Mule Sauce" from Sticker Mule. Fortunately for the project, the hot sauce is just as bad as Sticker Mule's politics, so it was a perfect candidate for this project (this is a Tabasco and Sriracha household).
 
 Anyway, onto the chassis it goes!
 
@@ -138,7 +147,7 @@ So, did it help? Maybe a bit. I washed it all off in the sink and left it to dry
 
 ![](assets/flooded-mac-se-restoration/IMG_0354.jpg)
 
-## Not sure what to call this section
+### Enclosure
 
 Okay, now that the chassis isn't going to give us Tetanus just by looking at it, let's talk about what I did with the front shell! Sadly I didn't get any photos of this part, but I took it outside with my daughters, some toothbrushes, and Dawn dishwasher detergent, and we scrubbed the front like crazy. For the stubborn stuff (and there was a lot of stubborn stuff), I brought it inside and used wet paper towels and baking soda. This acts as a mild abrasive and removes stubborn scuffs and marks. It does also remove a bit of texture, but the scratches were so deep on this Mac that I was okay with that, especially on the chin. Where possible, I like to smooth out scuffs and scratches, even if that means losing some of the plastic texture.
 
@@ -176,7 +185,7 @@ Here's the board again, mostly cleaned up with the RAM reinstalled.
 
 ![](assets/flooded-mac-se-restoration/IMG_0361.jpg)
 
-## Power Supply
+### Analog Board
 
 Let's take a quick look at the rest of the parts. Here's a closeup of the rust on the power supply. Next, I'll be taking this apart to see how bad the damage is. I don't think it's as bad as the exterior suggests.
 
@@ -218,7 +227,7 @@ I didn't get photos of this part, but I went to the sink and scrubbed it with...
 
 After that, the back of the logic board got a nice scrub with alcohol, and then a bunch of cleaning with the air compressor. I also used paper towels and alcohol to clean up the anode wire and cap. You'll see them in a bit, they look brand new!
 
-## Do You Know how Expensive This Gear is, Son?
+### Power Supply
 
 Next, I popped the power supply board out of it's case. I somehow didn't get an "after" photo, but here's what the back of the power supply board looked like at first. It's pretty easy to remove, just three Phillips screws, unclip the low voltage wire bundle, and sneak it out of the case. I've never recapped one of these because I was kinda afraid to get into it, but now I know that they're pretty simple inside. An LC power supply is a lot more complicated to take apart and put back together.
 
@@ -232,7 +241,6 @@ Also, check out that shiny anode cap!
 
 Next, I decided to work on removing the corrosion from the power supply case.
 
-
 ![](assets/flooded-mac-se-restoration/IMG_0379.jpg)
 
 I took it out to the work bench, and used a couple of clamps to keep it still while I wire brushed it. It came out looking great.
@@ -244,7 +252,6 @@ I might need to paint the part of it that is bare metal later, but for now, I de
 ![](assets/flooded-mac-se-restoration/IMG_0382.jpg)
 
 At this point, the power supply and logic board were reassembled!
-
 
 ![](assets/flooded-mac-se-restoration/IMG_0384.jpg)
 
@@ -265,6 +272,7 @@ At this point, it was ready to test. I'm decided to wait until the next day to g
 ![](assets/flooded-mac-se-restoration/IMG_0388.jpg)
 
 At this point, here's what was left:
+
 * See if this thing even works! I'll just use an external floppy drive for now.
 * Functionality test including all I/O ports
 * Clean, lubricate, install and test floppy drive
@@ -284,13 +292,9 @@ After the partial reassembly, I let the machine sit all night and all day while 
 
 ![](assets/flooded-mac-se-restoration/IMG_0390.jpg)
 
-Nothing.
+Nothing. Total silence. No activity whatsoever. Well, I guess expecting this to power on after it had been through was probably a bit too much to ask, huh?
 
-Total silence. No activity whatsoever. Well, I guess expecting this to power on after it had been through was probably a bit too much to ask, huh?
-
-But then I got to thinking.
-
-Maybe, just maybe.
+But then I got to thinking. Maybe, just maybe.
 
 I removed the two screws near the back of the analog board that connect it to the chassis, and then the four screws holding in the power supply. Using a long screwdriver, is pushed in the locking tab on the power supply to analog board connector and popped it out. Then, I was able to twist the PSU sideways and sneak it out of the chassis, since the analog board wasn't connected by those two screws, allowing the chassis to flex a bit. I put a bit of pressure on the CRT when I did this... probably not something I would do all of the time, but I _needed to know_.
 
@@ -302,9 +306,7 @@ Yep, there's the problem!
 
 That _probably_ needs to be plugged in for anything to work! I plugged it back in, and hastily reassembled the machine.
 
-The moment of truth.
-
-I flipped the power switch, and...
+The moment of truth. I flipped the power switch, and...
 
 ![](assets/flooded-mac-se-restoration/IMG_0395.jpg)
 
@@ -318,15 +320,11 @@ Next, I grabbed my external drive (which has a 1.44mb SuperDrive installed) and 
 
 ![](assets/flooded-mac-se-restoration/IMG_0397.jpg)
 
-Floppy controller works!
-
-Next, I texted my friend, who gave me the machine.
+Floppy controller works! Next, I texted my friend, who gave me the machine.
 
 ![](assets/flooded-mac-se-restoration/IMG_0398_SMS.png)
 
-Neither can I!
-
-At this point, I've verified that the external floppy port works, and both of the ADB ports work.
+Neither can I! At this point, I'd verified that the external floppy port and both ADB ports work.
 
 ![](assets/flooded-mac-se-restoration/IMG_0399.jpg)
 
@@ -366,7 +364,7 @@ To finish removing the sticker, I attacked the residue with some Goo-Gone.
 
 ![](assets/flooded-mac-se-restoration/IMG_0412.jpg)
 
-## Deep cleaning
+### Deep Cleaning
 
 With the sticker all taken care of, it was time to take the case outside for a final cleaning. I used my old standby: Dawn dishwasher detergent and a toothbrush.
 
@@ -388,7 +386,7 @@ On the inside, there were still some rust stains...
 
 ![](assets/flooded-mac-se-restoration/IMG_0420.jpg)
 
-## Time for Retrobrite
+## Retrobrite
 
 Time for retrobrite! Here's what the Mac looked like at the beginning of the day.
 
@@ -604,9 +602,11 @@ Fast forward another 6 months, and I was ready to push through and get this rest
 
 Not only did we lose a Tantalum capacitor on the original MiniScribe drive, but my SE/30 needed a hard drive bracket. To remedy these issues, I decided to build and install BlueSCSI.
 
-I absolutely love these little things, because for about $25 and a MicroSD card, you can have solid-state storage in your retro Mac. There are so many things about this hobby that have become expensive. For storage replacement, that is no longer the case. Buying one is easy - just head over to scsi.blue!
+# BlueSCSI
 
-_Note: In the original post from November 2021, I assembled a BlueSCSI v1.0c. In 2025, we are well into the lifecycle of the BlueSCSI v2, which has a lot more capabilities and is easy to source._
+I absolutely love these little things, because for about $25 and a MicroSD card, you can have solid-state storage in your retro Mac. There are so many things about this hobby that have become expensive. For storage replacement, that is no longer the case. Buying one is easy - just head over to [scsi.blue](https://bluescsi.com/)!
+
+_Note: In the original post from November 2021, I assembled a BlueSCSI v1.0c. In 2025, we are well into the lifecycle of the BlueSCSI v2, which has a lot more capabilities (such as Wi-Fi), and is easy to source._
 
 Before we can install it, we need to assemble it.
 
@@ -686,6 +686,145 @@ There was one last thing to do, which was set up the MicroSD card. First, I form
 
 ![](assets/flooded-mac-se-restoration/set-up-bluescsi-microsd.png)
 
-Next, I grabbed a [RaSCSI System 6.0.8 Boot image](https://macintoshgarden.org/apps/rascsi-68kmla-edition) from Macintosh Garden. These are intended for use with the RaSCSI, but they work on the BlueSCSI and are so, SO convenient. I unzipped the image, and renamed it to "HD10_512 System 6.hda". If everything works right, this system will boot to a working copy of System 6.0.8, which is super convenient! From a software perspective, the BlueSCSI is insanely easy to use - I love it.
+Next, I grabbed a [RaSCSI System 6.0.8 Boot image](https://macintoshgarden.org/apps/rascsi-68kmla-edition) from Macintosh Garden. These are intended for use with the RaSCSI, but they work on the BlueSCSI and are so, SO convenient. I unzipped the image, and renamed it to `HD10_512 System 6.hda`. If everything works right, this system will boot to a working copy of System 6.0.8, which is super convenient! From a software perspective, the BlueSCSI is insanely easy to use - I love it.
 
 ![](assets/flooded-mac-se-restoration/assemble-the-mac.jpg)
+
+## Chassis Painting
+
+Ok, just a couple things left on this Mac! It's coming together! It's almost done!
+
+![](assets/flooded-mac-se-restoration/IMG_3585.jpg)
+
+No, no. I can't leave it. It can be so, so much better. Time to take it back apart. Again.
+
+![](assets/flooded-mac-se-restoration/IMG_3586.jpg)
+
+I may be anxious to get it fixed up, and while the SE does have a bleeder resistor for the CRT... safety first. I always discharge the CRT before touching the anode cap, anode wire, and flyback.
+
+![](assets/flooded-mac-se-restoration/IMG_3587.jpg)
+
+Here it is all taken apart, littering the floor of my office. Again. I didn't even bother to disconnect the ground wire!
+
+![](assets/flooded-mac-se-restoration/IMG_3588.jpg)
+
+Next, I desoldered the shield from the logic board. Do you see where this is going yet?
+
+![](assets/flooded-mac-se-restoration/IMG_3589.jpg)
+
+The blue chassis just wasn't working for me. I had to paint it. I had to. I grabbed a couple of cans of paint at Home Cheapo, and ultimately chose the Metallic Aluminum Rust-Oleum 2X.
+
+![](assets/flooded-mac-se-restoration/IMG_3592.jpg)
+
+I found a place to hang them up in the back yard, and hit them with their first coat of paint.
+
+![](assets/flooded-mac-se-restoration/IMG_3591.jpg)
+
+Since it was pretty cold outside, I took them straight inside and hung them up in the laundry room.
+
+![](assets/flooded-mac-se-restoration/IMG_3593.jpg)
+
+In my excitement, I forgot to mask off some important places for grounding, so after things had dried overnight, I hit some places with the wire wheel and some 220-grit sandpaper.
+
+![](assets/flooded-mac-se-restoration/IMG_3602.jpg)
+
+I masked things off, and hit both parts with a couple more coats of paint.
+
+![](assets/flooded-mac-se-restoration/IMG_3603.jpg)
+
+I'm really, REALLY happy with how these turned out!
+
+![](assets/flooded-mac-se-restoration/IMG_3609.jpg)
+
+fter it had a couple of days to dry, I put everything back together, including soldering the shield back on the logic board (again). As for masking and grounding, I only worried about three points:
+
+1. Where the ground wire attaches from the analog board
+2. The two places where the logic board shield touches the back of the chassis
+
+Other than maybe the floppy drive, I couldn't find any other places for grounding. I also checked for continuity for grounds everywhere, and it all checked out. Considering that you can easily run these machines outside of their cases on a bench, I think this will be 100 percent fine.
+
+![](assets/flooded-mac-se-restoration/IMG_3611.jpg)
+
+Finally, I installed the BlueSCSI. Since I stole the hard drive bracket for my SE/30, I just used a couple pieces of double-side tape on the back of the BlueSCSI bracket.
+
+![](assets/flooded-mac-se-restoration/IMG_3612.jpg)
+
+Then, I stuck it to the top of the floppy drive bracket.
+
+![](assets/flooded-mac-se-restoration/IMG_3614.jpg)
+
+We're just about done here. After installing the BlueSCSI, I flipped the power switch, and the machine booted right up to System 6.0.8. Fantastic.
+
+![](assets/flooded-mac-se-restoration/IMG_3617.jpg)
+
+The CRT was positioned slightly too far to one side, so I used a plastic spudger to rotate one of the centering rings. With that, the restoration was done.
+
+![](assets/flooded-mac-se-restoration/IMG_3618.jpg)
+
+## Results
+
+Let's take a look at the results! Here is before:
+
+![](assets/flooded-mac-se-restoration/IMG_0311.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_3635.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_0313.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_3636.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_0312.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_3637.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_0314.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_3638.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_0316.jpg)
+
+![](assets/flooded-mac-se-restoration/IMG_3639.jpg)
+
+Up until now, I hadn't thought to see how much RAM it has. It appears to have 2 MB. In this configuration, System 6.0.8 will be super snappy, and it will work great for some black-and-white Mac gaming. If someone wanted to upgrade it to 4 MB, and plug in a PiSCSI or newer BlueSCSI for SCSI Ethernet emulation, you could probably download some files with FTP, or even do some Telnet! Technically, you *could* load up a webpage or two... but with System 6 and a 4 MB RAM ceiling, that would be a bit challenging.
+
+![](assets/flooded-mac-se-restoration/IMG_3632.jpg)
+
+Yes, there's some burn-in... but I don't think it's very distracting. This is max brightness in a well-lit room - not super bright, but really no brighter than I go on my other machines.
+
+![](assets/flooded-mac-se-restoration/IMG_3631.jpg)
+
+Here's a close-up of the burn-in. I can't quite tell what application it is.
+
+![](assets/flooded-mac-se-restoration/IMG_3633.jpg)
+
+And I think this is where our restoration thread draws to a close! As for the machine's future - I'm going to offer it back to the person who gave me the whole pile of Apple stuff to begin with (although I would need to track down a mouse and keyboard for it). The floppy drive still isn't super reliable, so I might tinker with that a little bit more. For now, thanks for reading my restoration thread! I hope you enjoyed it.
+
+![](assets/flooded-mac-se-restoration/IMG_3624.jpg)
+
+## Epilogue
+
+You might remember from earlier that this machine came equipped with 2 MB of RAM. On seeing that, my friend Daniel donated a 4 MB RAM upgrade for the machine!
+
+![](assets/flooded-mac-se-restoration/IMG_3667.jpg)
+
+I scrubbed all of the contacts with Isopropyl alcohol, and installed them in the machine. The tabs on the slots are all plastic, and one is broken, so I really wanted to only install the RAM once time to avoid breaking things.
+
+As for telling the Mac how much RAM to look for, this Macintosh SE FDHD is of the jumper variety. There is a 1 MB position, and a 2/4 MB position. Some Mac SE's (probably older non-SuperDrive and non-FDHD versions) use resistors that you have to remove.
+
+When I booted it up, I was very confused to find that only 2 MB of RAM was detected.
+
+![](assets/flooded-mac-se-restoration/IMG_3669.jpg)
+
+I consulted the [Low End Mac Macintosh SE RAM Upgrade guide](https://lowendmac.com/2016/memory-upgrades-mac-se/), and immediately found my mistake.
+
+> To upgrade to 4 MB, remove all four 256 KB SIMMs and replace them with 1 MB SIMMs, being careful not to damage the SIMM sockets. If you have the resistor motherboard, remove R35 and R36. If you have the jumper motherboard, remove the jumper. (Oddly, you do not set it to the 2/4M setting.)
+
+Of course, removing the jumper did the trick.
+
+![](assets/flooded-mac-se-restoration/IMG_3670.jpg)
+
+And with that nice RAM upgrade, this Macintosh SE FDHD is "maxed out"! Sure, I could find a Shiva Ethernet PDS card for it, or one of those neat accellerator PDS cards, or maybe even install a RaSCSI! But with a 1.4 MB floppy drive, solid-state storage with the BlueSCSI, and 4 MB of RAM, this little Macintosh SE has become quite the capable little machine.
+
+Thanks again Mark for the upgrade!
+
+![](assets/flooded-mac-se-restoration/IMG_3671.jpg)
