@@ -37,7 +37,7 @@ Luckily, the rust seems to be mostly limited to the main shields. There's a bit 
 
 ![IMG_3707.jpg](/assets/nes-restoration/IMG_3707.jpg)
 
-I noticed that this screw on the righthand side of the console was slightly backed out. Someone has been in here before...
+I noticed that this screw on the right hand side of the console was slightly backed out. Someone has been in here before...
 
 ![IMG_3708.jpg](/assets/nes-restoration/IMG_3708.jpg)
 
@@ -108,7 +108,7 @@ With everything all cleaned up and ready for retrobrite, I decided to look into 
 
 ![IMG_3722.jpg](/assets/nes-restoration/IMG_3722.jpg)
 
-In the past, I've restored glossy plastic parts on consoles with wet-sanding and polishing (such as the "jewel" on the top of a GameCube). While these parts weren't originally glossy, I decided to see what I could do.Instead of removing the parts entirely, I elected to just mask everything off.
+In the past, I've restored glossy plastic parts on consoles with wet-sanding and polishing (such as the "jewel" on the top of a GameCube). While these parts weren't originally glossy, I decided to see what I could do. Instead of removing the parts entirely, I elected to just mask everything off.
 
 ![IMG_3723.jpg](/assets/nes-restoration/IMG_3723.jpg)
 
@@ -120,15 +120,17 @@ Here's what it looked like after the 2500-grit sandpaper.
 
 ![IMG_3725.jpg](/assets/nes-restoration/IMG_3725.jpg)
 
-After wiping it clean, I polished it with Meguiar's Ultimate Compound. I don't think this is arealautomotive compound... it's probably closer to a cleaning wax, but it does the job!
+After wiping it clean, I polished it with Meguiar's Ultimate Compound. I don't think this is a real automotive compound (it's probably closer to a cleaning wax), but it does the job!
 
 ![IMG_3726.jpg](/assets/nes-restoration/IMG_3726.jpg)
 
-What?! No reveal!? Sadly - I didn't grab a photo at this stage... but how about we wait until the next step is done? Coming up: retrobrite!
+I'll hold off on revealing the results for a little bit. For now, it's time for some retrobrite!
 
 ## Retrobrite
 
-Time for retrobrite! Normally, I try to do retrobrite in the summer, because heat is an important component of full-submersion retrobrite. Things typicallystartto move at about 38°C (100°F), but are the most effective at higher temperatures, like 40.5°C (105°F) and above. Since the ambient outdoor temperature was around 8°C (~45°F) during the day, I needed a way to increase the temperature of the liquid. My solution is two-fold: I use some hot water from the kettle to get things started, and then I use a $10 fishtank heater to maintain the heat. If I set the plastic tub in an insulator of some kind, it can keep it at 38°C (100°F) continuously, but it can't move it above that. To keep the parts from floating (SUPER SUPER IMPORTANT), I use a couple of glasses filled with water. They work great!
+Normally, I try to do retrobrite in the summer, because heat is an important component of full-submersion retrobrite. Things typically start to move at about 38°C (100°F), but are the most effective at higher temperatures, like 40.5°C (105°F) and above. Since the ambient outdoor temperature was around 8°C (~45°F) during the day, I needed a way to increase the temperature of the liquid.
+
+My solution is two-fold: I use some hot water from the kettle to get things started, and then I use a $10 fishtank heater to maintain the heat. If I set the plastic tub in an insulator of some kind, it can keep it at 38°C (100°F) continuously, but it can't move it above that. To keep the parts from floating (which is *super important* to keep the parts from bleaching), I use a couple of glasses filled with water. They work great!
 
 ![IMG_3727.jpg](/assets/nes-restoration/IMG_3727.jpg)
 
@@ -254,7 +256,7 @@ So, what's left?
 
 ## Power and Reset Buttons
 
-This project is getting very close to completion, but there are a couple of things left to do. One of them is sort out the very brown Power and Reset buttons. In addition to looking bad, they also feel kinda crunchy and rusty. Theydowork though, so that's a good start!
+This project is getting very close to completion, but there are a couple of things left to do. One of them is sort out the very brown Power and Reset buttons. In addition to looking bad, they also feel kinda crunchy and rusty. They do work though, so that's a good start!
 
 ![IMG_3886.jpg](/assets/nes-restoration/IMG_3886.jpg)
 
@@ -274,7 +276,7 @@ First, I used some Isopropyl Alcohol to try to flush the switches out. I submerg
 
 ![IMG_3890.jpg](/assets/nes-restoration/IMG_3890.jpg)
 
-Next, I rigged up thisvery saferetrobrite system. I filled a small Pyrex dish with 30 or 40-proof clear developer (e.g., high-percentage Hydrogen Peroxide) just enough to submerge the plastic part of the switches. I used a bit of tape to keep them standing up. Then, I filled the larger Pyrex dish with hot water, suspended it on four 2 Towns BrightCider cans, and placed my UV "Lizard Lamp" below everything. I taped the lamp cord down to make sure it couldn't move on accident, and upset the water. There are some obvious safety issues here... so I don't recommend trying this at home.
+Next, I rigged up this very safe retrobrite system. I filled a small Pyrex dish with 30 or 40-proof clear developer (e.g., high-percentage Hydrogen Peroxide) just enough to submerge the plastic part of the switches. I used a bit of tape to keep them standing up. Then, I filled the larger Pyrex dish with hot water, suspended it on four [2 Towns cider](https://2townsciderhouse.com/) cans, and placed my UV "Lizard Lamp" below everything. I taped the lamp cord down to make sure it couldn't move on accident, and upset the water. There are some obvious safety issues here... so I don't recommend trying this at home.
 
 ![IMG_3893.jpg](/assets/nes-restoration/IMG_3893.jpg)
 
@@ -304,7 +306,7 @@ Hmmm, okay. Not bad let's look at the ba- OH MY GOSH.
 
 ![IMG_3909.jpg](/assets/nes-restoration/IMG_3909.jpg)
 
-Yikes. This is going to take some work to clean up. Did someone plat with these on a concrete floor or something?
+Yikes. This is going to take some work to clean up. Did someone play with these on a concrete floor or something?
 
 ![IMG_3910.jpg](/assets/nes-restoration/IMG_3910.jpg)
 
