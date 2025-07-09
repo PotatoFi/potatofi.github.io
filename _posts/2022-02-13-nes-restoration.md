@@ -7,7 +7,7 @@ image:
   path: assets/nes-restoration/nes-restoration-preview.jpg
 ---
 
-I originally [wrote and posted this restoration log on TinkerDifferent](https://tinkerdifferent.com/threads/restoration-nintendo-entertainment-system.584/), but have decided to duplicate all of my restoration logs to my blog for centralization. While I updated this post on 2025-07-09, the original restoration was completed in 2021. Thank you very much to TinkerDifferent for hosting my restoration log.
+I originally [wrote and posted this restoration log on TinkerDifferent](https://tinkerdifferent.com/threads/restoration-nintendo-entertainment-system.584/), but have decided to duplicate all of my restoration logs to my blog for centralization. While I updated this post on 2025-07-09, the original restoration was completed in 2022. Thank you very much to TinkerDifferent for hosting my restoration log.
 
 ## Introduction
 
