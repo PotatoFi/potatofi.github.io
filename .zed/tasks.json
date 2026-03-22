@@ -1,0 +1,6 @@
+[
+  {
+    "label": "Render",
+    "command": "bundle exec jekyll serve",
+  },
+]
