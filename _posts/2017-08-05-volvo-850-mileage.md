@@ -1,7 +1,7 @@
 ---
 title: Reading Mileage from a 1997 Volvo 850
 date: 2017-08-05 10:00:00
-categories: [Technology, Development]
+categories: [Mechanics, Cars]
 tags: [Cars, Bluetooth, Serial]
 image:
   assets/volvo-850-mileage/volvo-850-mileage-preview.jpg
