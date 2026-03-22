@@ -234,7 +234,7 @@ I'd forgotten the PRAM battery.
 
 It works! So... that's it, this machine is basically done! Currently, it has System 7.5.3, 20 MB of RAM, and the original 230mb hard drive, which seems to be working fine. It looks like the last time it was touched was around 1999. There's a few spreadsheets, and someone's W-2 (complete with social security numbers, yikes). It was fun to poke around a bit to see where the machine came from — looks like it was used in some kind of healthcare business in a nearby city. I'm surprised that the hard drive exited that environment intact. I'm glad it did for the sake of preservation, but I think I'd like to completely wipe it and install a fresh operating system.
 
-Future upgrades would be more RAM, and perhaps an Ethernet card. I think the hard drive is new enough that it might actually last awhile, so I'll hold off on a SCSI2SD. _Note from 2026: These days, I'd be dropping in a [BlueSCSI v2]()._
+Future upgrades would be more RAM, and perhaps an Ethernet card. I think the hard drive is new enough that it might actually last awhile, so I'll hold off on a SCSI2SD. _Note from 2026: These days, I'd be dropping in a [BlueSCSI v2](https://bluescsi.com/)._
 
 # Earthquake!
 
