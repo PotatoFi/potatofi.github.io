@@ -13,14 +13,14 @@ The radio spectrum is a complicated place, far too complicated for static charts
 
 ![](assets/tools/interactive-spectrum-chart.png)
 
-# Hamina Object Rotation Tool
+# Hamina Clipboard Tool
 
-Need to rotate objects in Hamina Network Planner? Until we can get this added, here's a little external tool that you can use to get the job done.
+Awhile back, I built a tool for rotating objects for Hamina Network Planner, and it evolved into the Hamina Clipboard tool that it is today. You copy things to the clipboard from Hamina, and then paste them into the Hamina Clipboard Tool to apply rotation or change the object type, and also generate circles and grids of APs or map notes.
 
-* Web app: [https://www.potatofi.com/rotate/](https://www.potatofi.com/rotate/)
-* Blog post: [https://www.potatofi.com/posts/hamina-object-rotate/](https://www.potatofi.com/posts/hamina-object-rotate/)
+* Web app: [https://clipboard.potatofi.com/](https://clipboard.potatofi.com/)
+* Blog post about Rotate, the precursor: [https://www.potatofi.com/posts/hamina-object-rotate/](https://www.potatofi.com/posts/hamina-object-rotate/)
 
-![](assets/tools/hamina-object-rotate.png)
+![](assets/tools/hamina-clipboard-tool.png)
 
 # PotatoFrames for Wireshark
 

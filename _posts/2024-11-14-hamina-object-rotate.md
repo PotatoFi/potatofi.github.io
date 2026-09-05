@@ -1,6 +1,7 @@
 ---
 title: Rotating Objects in Hamina Network Planner
 date: 2024-11-17 20:55:00
+last_modified_at: 2026-09-05 16:16:13 UTC
 categories: [Wi-Fi, Tools]
 tags: [Wi-Fi, Hamina]
 image:
@@ -11,7 +12,7 @@ In [Hamina Network Planner](https://www.hamina.com/planner), Attenuating Objects
 
 Duplicating objects is straightforward with `Command` + `C` and `Command` + `V`, but what if you need to rotate an attenuating object or group of objects? At the time of this writing, Hamina Network Planner doesn't support that, so I used [Claude.ai](https://claude.ai/) to write a small web app that does it for us.
 
-You can find the tool at [www.potatofi.com/rotate](https://www.potatofi.com/rotate/).
+~~You can find the tool at [www.potatofi.com/rotate](https://www.potatofi.com/rotate/).~~ This tool has been replaced with the **Hamina Clipboard Tool**, which rotates objects plus a lot more! You can find it at [https://clipboard.potatofi.com/](https://clipboard.potatofi.com/).
 
 # Usage
 
