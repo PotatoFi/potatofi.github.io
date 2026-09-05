@@ -1,3 +1,14 @@
+# Run Jekyll Locally
+
+1. Run `bundle exec jekyll serve`
+2. Browse to [http://localhost:4000](http://localhost:4000)
+
+# Header Image Size
+
+`1200 x 630`
+
+Use the file format `${blogName}-preview.jpeg`.
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
