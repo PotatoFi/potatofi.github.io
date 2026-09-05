@@ -15,7 +15,7 @@ Pre-OBDII Volvo 850's (1993-1995) provide the ability to plug in a fly wire unde
 
 Sadly, OBDII Volvo 850's (1996-1997) lack the fly wire, button, and LED. Fortunately, [there's a way to read the mileage through the OBDII port](https://jonesrh.info/volvo850/elm327_reads_volvo_850_mileage.html) with an ELM 237 Bluetooth OBDII reader, and an Android phone. This might be possible with iOS or with a terminal emulator in Windows, but I have an Android device, so that's the route I took.
 
-# Reading the Mileage
+## Reading the Mileage
 
 1. Plug in the ELM 237 ODBII reader, and get it paired to your phone.
 2. Get a terminal emulator app. I used [Elm Basic](https://play.google.com/store/apps/details?id=com.drively.elmterminal).
@@ -44,7 +44,7 @@ B90300
 > After all of these years, the history in the calculator (which is a Google Sheet) shows that people have been using it! If you successfully retrieve your mileage, feel free to sign the "Guest Book" section.
 {: .prompt-tip }
 
-# Alternate Method
+## Alternate Method
 
 On July 23, 2019, "jonesrh" (who I linked to earlier in the article, and probably where I found out how to do this in the first place) left this comment:
 

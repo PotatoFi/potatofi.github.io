@@ -13,7 +13,7 @@ Duplicating objects is straightforward with `Command` + `C` and `Command` + `V`,
 
 You can find the tool at [www.potatofi.com/rotate](https://www.potatofi.com/rotate/).
 
-# Usage
+## Usage
 
 1. In Hamina Network Planner, use the **Edit** tool to select one or more Attenuating Objects. You can either `Shift` + click each object, or drag a box around everything that you want to select. ![](assets/hamina-object-rotate/copy-objects.png)
 2. Press `Command` + `C` to put the Attenuating Objects on your clipboard. They copy out of Hamina as JSON text that you can paste into any text field.

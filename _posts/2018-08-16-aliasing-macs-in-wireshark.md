@@ -11,7 +11,7 @@ I love Wireshark, but one thing is for sure: tracking 802.11 conversations with 
 
 Fortunately, Wireshark has the ability to alias IP and MAC addresses! These are defined in the `ethers` file. You should be able to do nearly the same thing on Windows, but here's how to do it on macOS.
 
-# Aliasing MAC Addresses
+## Aliasing MAC Addresses
 
 1. Open a terminal, and run:
 ```bash
@@ -32,7 +32,7 @@ ab:12:ef:cd:34:56 (Client)MacBookPro
 > When defining names, I like to lead with either (AP) or (Client) so I can immediately tell which side is talking.
 {: .prompt-tip }
 
-# Appending the Ethers File
+## Appending the Ethers File
 
 You can quickly add new MAC addresses to your file with **cat**.
 
@@ -51,7 +51,7 @@ ab:12:ef:cd:34:56 (Client)MacBookPro
 ```
 3. Press `Ctrl` + `D` to write the additions to the file.
 
-# Copying MAC Addresses from Wireshark
+## Copying MAC Addresses from Wireshark
 
 It's fast and easy to copy MAC addresses out of Wireshark, and you can paste them into the terminal.
 

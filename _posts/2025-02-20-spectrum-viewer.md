@@ -17,7 +17,7 @@ So, over the past couple of months, I built something! What I've come up with is
 
 [https://spectrum.potatofi.com](https://spectrum.potatofi.com)
 
-# Fun things to do in it
+## Fun things to do in it
 
 1. Turn off Bluetooth, and zoom into some 20 MHz channels. Check out those subcarriers! ![](assets/spectrum-viewer/subcarriers.png)
 2. Turn on 20 MHz channels, 2.4 GHz overlapping channels, Bluetooth, _and_ Zigbee. Check out how crazy the 2.4 GHz band is! ![](assets/spectrum-viewer/busy-2-GHz.png)
@@ -26,39 +26,39 @@ So, over the past couple of months, I built something! What I've come up with is
 5. Redeem the day by using the **Entire spectrum** shortcut. Check out how much unlicensed room we have for activities!
 6. If you have an iPhone, use the **Share** > **Add to Home Screen** button to create a shortcut. I spent some extra time making it feel good on iPhone, complete with a nice icon. ![](assets/spectrum-viewer/iphone.png)
 
-# How to use it
+## How to use it
 
-## Panning
+### Panning
 
 Pan across the spectrum by:
 * Two-finger swiping left and right on a trackpad
 * Left-clicking and dragging with a mouse pointer
 * Swiping horizontally on a touchscreen
 
-## Zooming
+### Zooming
 
 Zoom in and out of the spectrum by:
 * Two-finger scrolling on a trackpad
 * Rolling the scroll wheel on a mouse
 * Pinching on a touchscreen
 
-### Options
+#### Options
 
 Use the **hamburger menu 🍔** in the upper left to hide and show different technologies, channel widths, and modes. You can also change the height of the signatures/masks with the slider.
 
-### Regulatory Domains
+#### Regulatory Domains
 
 In the **Regulatory Domains 🌍** menu, you can turn a few regulatory domains on and off. IF a channel is included in one or more selected regulatory domains, it will be displayed. **Worldwide** includes all channels that are generally available (or *harmonized*) everywhere. Note that accuracy here is on a best-effort basis; the world is a complicated place. 🙂
 
-### Shortcuts
+#### Shortcuts
 
 To jump to a specific part of the band, use the **Shortcuts ⭐** menu.
 
-### Download
+#### Download
 
 Use the **Download 📥** button to take a snapshot of the canvas, and download it.
 
-# What can I use it for?
+## What can I use it for?
 
 Feel free to use this chart for:
 
@@ -68,23 +68,23 @@ Feel free to use this chart for:
 
 Please don't copy my code and redistribute it, or host it anywhere else. I might add a more permissive license in the future, but not right now.
 
-# Challenges
+## Challenges
 
-## "Technology Stack"
+### "Technology Stack"
 
 Pretty early on, I made the descision to build it in vanilla HTML, CSS, and JavaScript. I was hoping to use CSS divs for the channel labels, so I could use CSS for mouseovers, sorting, and other interactivity, the the performance was abysmal. Because of that, I fell back to pure JavaScript. While it's pretty performant (even with my spaghetti code), the downside is that interactivity is much more difficult. But hey, it techically works on my Windows XP netbook!
 
-## 802.11ah Channel Charts
+### 802.11ah Channel Charts
 
 I had to dig around in the 802.11-2020 spec quite a bit to figure out the channel charts. The spec is _just_ cryptic enough that I fed some of it into Claude.ai to make sure we agreed on how the channels work. The result is what I am pretty sure is the very first 802.11ah chart that is openly available on the internet. I'm pretty proud of that.
 
 ![](assets/spectrum-viewer/80211ah-900-mhz-channels.png)
 
-# Future Plans
+## Future Plans
 
 For now, I've worked on this project alone to learn HTML, CSS, and JavaScript, and to have something creative to work on. There has been some interest by my employer ([Hamina Wireless](https://www.hamina.com/)) to put some real development effort behind the idea, and make an official "Hamina Spectrum Chart". Maybe that will happen.
 
-## Planned Features
+### Planned Features
 
 I might add some of these features, but I am a novice developer. We'll see what I can get done.
 
@@ -103,7 +103,7 @@ I might add some of these features, but I am a novice developer. We'll see what 
 * Expand the spectrum beyond 8 GHz.
 * Let the user zoom in more to look at technologies below VHF.
 
-## Feature Requests
+### Feature Requests
 
 If you have a feature request, feel free to [open an issue in GitHub](https://github.com/PotatoFi/spectrum/issues). Just temper your expectations - I am a novice developer, and am already running into the edges of my capabilities a bit.
 

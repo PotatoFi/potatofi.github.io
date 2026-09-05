@@ -9,13 +9,13 @@ image:
 
 I originally [wrote and posted this on Reddit](https://www.reddit.com/r/BMWE36/comments/118dxzl/328i_power_steering_parts_list/), but have decided to duplicate all of my guides to my blog for centralization, and am taking the opportunity on 2026-03-22 to update it and fix broken links.
 
-# Problem
+## Problem
 
 The power steering hose for the BMW 328i (E36 chassis) is [notoriously expensive](https://www.fcpeuro.com/products/bmw-power-steering-return-hose-32411141714-1) for what it is. Part of the return hose is metal (presumably to cool down the power steering fluid before it returns to the reservoir), with a rubber hose clamped to it that fails with age.
 
 Someone on Bimmerforums came up with the solution, but the images broke long ago, and it doesn't link to any parts.
 
-# Solution
+## Solution
 
 Using the Bimmerforums guide, I was able to refresh the power steering hoses and reservior on my 1997 BMW 328i (sedan, 5-speed, sport package). Here are the parts I used:
 

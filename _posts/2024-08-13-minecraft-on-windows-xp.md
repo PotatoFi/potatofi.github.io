@@ -16,7 +16,7 @@ To run Minecraft on Windows XP, you need two things:
 - A version of Java for Windows XP
 - A Minecraft launcher for Windows XP
 
-# Java
+## Java
 
 For Java, [this post on Reddit](https://www.reddit.com/r/windowsxp/comments/t5k3rm/the_true_latest_working_version_of_java_on_xp/) documented the last version that will install and work on Windows XP, which is `Java 2017 version 152`, which appears to be the same as `Java 8 Update 152` that can be [found on Internet Archive](https://archive.org/details/jre-8u152-windows-i586).
 
@@ -24,7 +24,7 @@ This version does give a warning about requiring a newer version of Windows, but
 
 ![](assets/minecraft-on-windows-xp/java-install-xp.jpeg)
 
-# Minecraft Launcher
+## Minecraft Launcher
 
 To launch Minecraft, I had great success with the [latest version of MultiMC](https://multimc.org/#Download). I simply placed it in a folder, launched MultiMC, let it find Java, signed into my Microsoft account, and proceeded to download Minecraft 1.0.
 
