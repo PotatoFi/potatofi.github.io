@@ -9,11 +9,11 @@ image:
 
 There are plenty of guides out there that explain how to put a Cisco AP in SE-Connect mode via SSH, but what about the GUI?
 
-# Pre-Requisites
+## Pre-Requisites
 
 For this guide, you'll need to first convert your Cisco AP to autonomous mode. To convert my AP, I used an [excellent guide by Rasika Nayanajith](https://mrncciew.com/2013/12/13/ap-conversion-using-mode-button/){:target="_blank"}.
 
-# Guide
+## Guide
 
 1. Log into the Cisco AP. If you haven't changed the password, the username is `cisco`, and the password is `Cisco`.
 

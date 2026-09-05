@@ -9,7 +9,7 @@ image:
 
 I originally [wrote and posted this restoration log on 68kMLA](https://68kmla.org/bb/threads/performa-476-restoration.35371/), but have decided to duplicate all of my restoration logs to my blog for centralization. While I updated this post on 2026-03-22, the original restoration was completed in 2020. Thank you very much to 68kMLA for hosting my restoration log, and following along.
 
-# Introduction
+## Introduction
 
 I picked up a floppy enclosure, LCII, and Performa 476 on Craigslist! In this thread, I'll focus on the restoration of the Performa 476.
 
@@ -27,7 +27,7 @@ I managed to get everything apart without breaking any clips. My hope is to put 
 
 ![IMG_0458.jpg](assets/performa-476-restoration/IMG_0458.jpg)
 
-# Retrobrite
+## Retrobrite
 
 First, I want to Retrobrite the case. This will be tricky for a few reasons:
 
@@ -75,7 +75,7 @@ After 2 hours, I don't see a difference, but this method is probably very "low a
 
 Next, we'll recap the logic board!
 
-# Logic Board
+## Logic Board
 
 Of all of the logic boards I've recapped, this is one of the cleanest.
 
@@ -122,7 +122,7 @@ After most of the day indoors under the UV lamp, and about 2 hours of hit and mi
 
 I decided to bring the container back inside (ambient temp 68°F/20°C in the house), put in the top half of the case, and leave it under the UV lamp all night.
 
-# Retrobrite Check-In
+## Retrobrite Check-In
 
 After leaving the bottom half of the case under the UV lamp all night, I decided that it was done. Time to switch to Retrobrite for the top. I started out with it outside:
 
@@ -182,7 +182,7 @@ And here it is, right now. Tonight, I'll clean the floppy drive out and recap th
 
 ![IMG_0485.jpg](assets/performa-476-restoration/IMG_0485.jpg)
 
-# Power Supply and Floppy Drive
+## Power Supply and Floppy Drive
 
 Last night there were two more things to tackle: the power supply and the floppy drive. First, the power supply. To keep track of screws, I write a tiny number next to each screw hole with a Sharpie to keep track of where they all go.
 
@@ -200,7 +200,7 @@ A few of the largest capacitors ended up working, so I replaced what I could and
 
 ![IMG_0492.jpg](assets/performa-476-restoration/IMG_0492.jpg)
 
-# Floppy Drive
+## Floppy Drive
 
 Next, the floppy drive.
 
@@ -236,6 +236,6 @@ It works! So... that's it, this machine is basically done! Currently, it has Sys
 
 Future upgrades would be more RAM, and perhaps an Ethernet card. I think the hard drive is new enough that it might actually last awhile, so I'll hold off on a SCSI2SD. _Note from 2026: These days, I'd be dropping in a [BlueSCSI v2](https://bluescsi.com/)._
 
-# Earthquake!
+## Earthquake!
 
 Quick follow-up: I had the machine running when we experienced a small earthquake. We grabbed the kids and ran outside, while the machine and four 3D printers in my office kept running. A few minutes after the earthquake stopped and we had gone back inside, the hard drive started making a horrible horrible noise! It sounded like R/W heads skating on the platters. Not sure if it was simply from a couple of hours of use, or if the earthquake got it, but now I need a SCSI2SD for this machine. 😂

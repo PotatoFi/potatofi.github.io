@@ -13,12 +13,12 @@ Fortunately, I have some tools to work with. I have a spare Android phone comple
 
 In my setup, I have a `WAN2` port on my Ubiquiti UniFi Secure Gateway. If WAN1 goes down, the USG will automatically flop over to WAN2.
 
-# Guide
+## Guide
 
 > Infosec is a huge blind spot of mine. I'm nowhere close to competent with Linux. Exposing a Pi to the internet is scary to me. Proceed with caution.
 {: .prompt-danger }
 
-## Set up Rasbian
+### Set up Rasbian
 
 1. Download [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/).
 2. Write it to an SD card with a tool like [Etcher](https://www.balena.io/etcher/).
@@ -27,7 +27,7 @@ In my setup, I have a `WAN2` port on my Ubiquiti UniFi Secure Gateway. If WAN1 g
 4. From the .zip, drop ssh into `/boot`, which wil enable SSH on the Raspberry Pi.
 5. Optionally, you can also drop `wpa_supplicant.conf` into `/boot`, and edit the file with your WPA2 SSID and passphrase (you can skip this step if you are just gunna configure it with Ethernet).
 
-## Configure the Bridge
+### Configure the Bridge
 
 1. Plug everything in.
 2. Enable USB tethering on your Android phone.

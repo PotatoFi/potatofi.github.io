@@ -25,22 +25,22 @@ I didn't manage to take careful notes while softmodding my Xbox, as it took some
 
 ![](assets/original-xbox-softmod/xbox-controllers.jpeg)
 
-# First
+## First
 
 Unless you have an Xbox version 1.6, get the clock capacitor out. If it hasn't destroyed your motherboard, it will. Get it out _right now_.
 
-# Softmodding
+## Softmodding
 
 Previously, it was nescessary to get a copy of Splinter Cell and use a save game exploit to launch the softmod. Today, this can be done with ENDGAME, which skips the game and exploits directly from the *Memory* menu in the stock dashboard. As a result, the only hardware you need is:
 
 1. An Xbox to USB adapter. I used [this one from AliExpress](https://www.aliexpress.com/item/1005003440265548.html), but you can get these in a variety of places.
 2. A compatible flash drive, which usually means that it's older, or small capacity, of both. I used [this one from AliExpress](https://www.aliexpress.com/item/1005008120319561.html) and it worked great, but you can check out a compatibility list to see if something rattling around in your desk drawer will work.
 
-## Rocky5's Softmodding Tool
+### Rocky5's Softmodding Tool
 
 [Rocky5's Softmodding Tool](https://github.com/rocky5/xbox-softmodding-tool) seems to be the most popular one right now, and [this YouTube short](https://www.youtube.com/watch?v=8ZFpDoALtIk) shows the process with minimal fluff.
 
-## Applications
+### Applications
 
 Applications seem to always be called "default.xbe", but if you place each application in `F:\Applicatons\` inside it's own subfolder, then dashboards will pick up the application, naming it with the folder name.
 
@@ -48,13 +48,13 @@ For example, the Insignia Setup Assistant itself is a "default.xbe", so `F:\Appl
 
 _Note: In UIX-Lite, you'll need to go to *Place* > *Place* > *Place* to have it re-scan for Applications, Games, and Dashboards._
 
-### Insignia Setup Assistant
+#### Insignia Setup Assistant
 
 As the name suggests, this is used to set up Insignia.
 
 [Insignia Setup Assistant](https://github.com/insignia-live/setup-assistant-release/releases/latest)
 
-### Dashloader Customizer
+#### Dashloader Customizer
 
 Changes which dashboard starts by default. I used this to change the default dashboard from UnleashX back to the stock Microsoft dashboard, after it was patched with UIX-Lite.
 
@@ -62,7 +62,7 @@ Changes which dashboard starts by default. I used this to change the default das
 
 _Note: In the application, trying pressing *Left* on the d-pad if you can't figure out what to do._ 
 
-### Chimp
+#### Chimp
 
 This tool clones the contents of the original hard drive to a new storage device, all on your Xbox without having to use a computer. The idea is that start up Chimp, unplug the DVD drive, and connect your new storage device in place of it. Chimp copies everything over, expands the partitions to fill the empty space, and locks the drive with your original hard drive key. 
 
@@ -70,7 +70,7 @@ Maybe I messed up, but Chimp only expanded my F drive to 127 GB, so I had to use
 
 [Chimp](https://github.com/Rocky5/Chimp261812)
 
-### XBPartitioner
+#### XBPartitioner
 
 Rocky5's mod lists "XBPartitioner" as an app you can run from UnleashX, but it's not actually there; it's actually just a message saying that you don't need it. Well, Rocky5, as much as I appreciate you, I _did_ in fact need it to expand my F partition after using Chimp.
 
@@ -78,17 +78,17 @@ Rocky5's mod lists "XBPartitioner" as an app you can run from UnleashX, but it's
 
 _Note: You'll need to use the correct block size, depending on how large your hard drive is. XBPartitioner does a good job of handling this automatically, but if you need to understand exactly why the block size matter, [check out this Reddit post](https://www.reddit.com/r/originalxbox/comments/6jnvdc/help_with_xbpartitioner_13/)._
 
-### Video Select 2
+#### Video Select 2
 
 Since I'm in Finland, my Xbox is PAL, but I would much prefer to use NTSC video modes. This application writes a small change to the BIOS, changing the Xbox from PAL to NTSC video modes. After applying the change, the Xbox now has the exact same video options in the dashboard as my NTSC Xboxes back home. I've been using it with RetroTINK 2X-Classic and component cables, getting 480i on my European LG OLED TV.
 
 [Video Select 2](https://digiex.net/threads/enigmahs-video-select-2-xbox-region-switcher-ntsc-pal.13817/)
 
-# Dashboards
+## Dashboards
 
 After running the exploit, running Rocky5's Softmodding Tool, you'll get dropped into UnleashX. The hard drive will have C, D, E, and F partitions.
 
-## UIX-Lite
+### UIX-Lite
 
 Rocky5's softmod installs UnleashX, which is very full-featured, but I prefer the look and feel of the stock Microsoft dashboard. I was thrilled to find out about UIX-Lite, which patches the stock Microsoft dashboard so it can launch games, applications, and other dashboards.
 
@@ -98,14 +98,14 @@ With the UIX-Lite patch, I'm able to use the patched Microsoft dashboard for day
 
 [UIX-Lite Github](https://github.com/OfficialTeamUIX/UIX-Lite)
 
-## Switching to UIX-Lite
+### Switching to UIX-Lite
 
 Follow the *How-to (Automagically)* instructions to restore the Microsoft Dash 5960, and then patch it. You'll end up with these two dashboards:
 
 * Patched Microsoft Dash 5960: `C:\xboxdash.xbe - Patched 5960`
 * UnleashX: `C:\Dashboard\default.xbe`, with files such as config.xml, items.xml, and a Skins folder.
 
-## Making UIX-Lite the Default
+### Making UIX-Lite the Default
 
 1. Copy everything in `C:\Dashboard\` to `E:\Dashboards\UnleashX`
 2. Use File Explorer in UnleashX to boot the patched Microsoft Dash 5960.
@@ -118,28 +118,28 @@ Now, UIX-Lite (e.g. the Patched Microsoft Dash 5960) will boot by default, but y
 
 ![](assets/original-xbox-softmod/uix-dashboard.jpeg)
 
-# Hard Drive Upgrade
+## Hard Drive Upgrade
 
 I elected to upgrade my stock 8 GB hard drive to a 256 GB SSD, because:
 
 1. The original hard drive is now 25 years old and is likely to fail any day now.
 2. My collection of NTSC Xbox games is in storage in the US, so I'd like to run backups directly from storage.
 
-## Hardware
+### Hardware
 
 1. A SATA hard drive or SSD. I went for a 256 GB Kingston SSD, as I can probably put 50 games on it (but I won't, it will be more like 15)
 2. An IDE to SATA adapter, and some way to power two IDE devices at the same time (like a Y cable, if needed).
 3. An 80-wire IDE cable, as the stock 40-wire cable doesn't let the IDE bus go fast enough for things to work. Remember that both of them have 40 _pins_, but the 80-wire cable has a dedicated ground wire for each signal wire, reducing noise the unlocking speeds.
 
-### IDE to SATA Adapter
+#### IDE to SATA Adapter
 
-#### AliExpress Adapter
+##### AliExpress Adapter
 
 Initially, I used [this inexpensive no-name from AliExpress](https://www.aliexpress.com/item/1005005922096341.html), which had reviews saying that it worked for the Original Xbox. I bought it along with a [Y cable](https://www.aliexpress.com/item/1005006026259742.html) to simultaneously power the old hard drive and new SSD. Unfortunately, the IDE controller seemed to struggle to enumerate the adapter, as the console hung on the "Xbox" logo for a long time on each boot. After awhile the console will either Error 07 (hard drive discovery timed out), or the "Microsoft" logo will appear and continue to boot.
 
 ![](assets/original-xbox-softmod/aliexpress-ide-to-sata-adapter.jpeg)
 
-#### StarTech Adapter
+##### StarTech Adapter
 
 I then ordered the famous red StarTech adapter, which is known to work (and is also known to work with [Todd Gill's 2.5" hard drive mounting bracket](https://www.printables.com/model/351702-xbox-25-inch-to-35-inch-adapter)). It also includes a pass-through power cable, so you don't need a Y adapter to power two drives.
 
@@ -152,7 +152,7 @@ To switch from a generic kernel font to a specific one:
 1. Launch NKPatcher Settings.
 2. Go to **Kernel Fonts** > **Advanced Features** > **Kernel Font Options** > **Install Kernel Font**
 
-### 80-wire IDE Cable
+#### 80-wire IDE Cable
 
 This one has proven to be a real pain, as [the 37 cm one I could get on AliExpress](https://www.aliexpress.com/item/1005006919154090.html) is just plain too short.
 
@@ -160,9 +160,9 @@ This one has proven to be a real pain, as [the 37 cm one I could get on AliExpre
 
 ![](assets/original-xbox-softmod/ide-to-sata-cable-back.jpeg)
 
-# Miscellaneous
+## Miscellaneous
 
-## Replacement Thumbsticks
+### Replacement Thumbsticks
 
 It turns out that Xbox 360 thumbsticks make drop-in replacement for the Original Xbox S controller (and The Duke as well). I [grabbed a package from AliExpress](https://www.aliexpress.com/item/1005006562962554.html) and while they aren't *quite* as soft as I remember Xbox 360 thumbsticks being, they are much better than the worn-out originals on my Xbox S controllers.
 
@@ -175,7 +175,7 @@ When disasembling your controllers:
 1. Look for white circles on the controller PCBs. Keep the wires out of those circles, as the controller plastics touch the PCB at those locations to keep things solid. It's easy to accidentally pinch wires there.
 2. When putting screws back in, turn them backwards with a bit of pressure until you hear and feel the screw "click". Then, turn the screw the right way. This will align the threads.
 
-## Converting ISO or XISO
+### Converting ISO or XISO
 
 If your backups are in ISO or XISO format, you'll need to unpackage them and copy them to the Xbox with FTP. The easiest method I've found is with with [xdvdfs-web](https://github.com/antangelo/xdvdfs/tree/main/xdvdfs-web), which runs out of a browser.
 

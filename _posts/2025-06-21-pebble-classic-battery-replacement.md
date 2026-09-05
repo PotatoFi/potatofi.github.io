@@ -13,7 +13,7 @@ While we anxiously wait for them to arrive, I [picked up a Pebble Classic from a
 
 I don't feel that the battery replacement process is well-documented for these, hence this guide.
 
-# Glued Versus Screwed
+## Glued Versus Screwed
 
 The original batch of Pebble Classic watches (such as mine from 2013) is sealed with glue. I have yet to see good documentation showing a [successful disassembly](https://www.ifixit.com/Teardown/Pebble+Teardown/13319), battery replacement, and satisfactory reassembly of a glued Pebble Classic, so I have refrained from attempting to crack my first Pebble Classic open. That said, [a user on Reddit gave this report](https://www.reddit.com/r/pebble/comments/1jls4v0/comment/mkccwa5/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button):
 
@@ -21,18 +21,18 @@ The original batch of Pebble Classic watches (such as mine from 2013) is sealed 
 
 So, while this might be possible with a glued Pebble Classic, this guide is really intended for units that use screws, which are readily available on eBay for around $30.
 
-# Battery
+## Battery
 
 Supposedly, any 3.7v 402020 battery will work, but I ordered [this specific battery from AliExpress](https://www.aliexpress.com/item/1005006275320637.html?spm=a2g0o.order_list.order_list_main.29.62281802WJTvkK) for less than 10€.
 
-# Before You Begin
+## Before You Begin
 
 Before you get started, I recommend looking through these resources to best understand what you are getting into.
 
 * [iFixit Pebble Teardown](https://www.ifixit.com/Teardown/Pebble+Teardown/13319). While this is for the glued Pebble, and shows it being disassembled from the _front_ of the watch instead of the _back_, it's great for very close-up photos of each component.
 * [Paul Lasky's Pebble Battery Replacement Video](https://www.youtube.com/watch?v=WEs2i2CSits). I am super appreciative of Paul's video, which at the time of this writing remains the best guide for Pebble Classic battery replacement. That said, I attempted his method (which involves removing the backlight masking sticker and diffuser) on another Pebble Classic, and felt like it did more damage than it was worth. You have to peel up the backlight mask sticker (which will never stick down very well again), and you have to be pretty rough on the backlight diffuser to get it out. On a second attempt, I went in through the back of the inner assembly (instead of through the front like Paul does), and felt that it was much less invasive and risky.
 
-# Instructions
+## Instructions
 
 Note: The pictures don't quite show the same order as the text. I'd recommend following the text.
 
