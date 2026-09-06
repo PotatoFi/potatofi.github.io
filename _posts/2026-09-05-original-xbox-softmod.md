@@ -11,11 +11,11 @@ Since leaving my two Original Xboxes in storage and moving to Finland, I got the
 
 ![](assets/original-xbox-softmod/original-xbox.jpeg)
 
-I knew I would softmod it, because I want to:
+I planned to softmod it so I could:
 
 * Play games online with Insignia
 * Run backups of my NTSC games, because PAL games usually can't run in 480p and stuff
-* Swap the aging 8 GB hard drive for fresh storage hardware that isn't loable to fail at any time
+* Swap the aging 8 GB hard drive for fresh storage hardware that isn't liable to fail at any time
 
 Back in 2011 or so, when you could pick up an Xbox at a garage sale for $10, I softmodded a couple of them primarily so they could run XBMC. The tools were all over the place, and the documentation never seemed complete or centralized. 15 years later in 2026, it seems like the tools are better, but the knowledge is still scattered all over the internet.
 
@@ -31,10 +31,10 @@ Unless you have an Xbox version 1.6, get the clock capacitor out. If it hasn't d
 
 ## Softmodding
 
-Previously, it was nescessary to get a copy of Splinter Cell and use a save game exploit to launch the softmod. Today, this can be done with ENDGAME, which skips the game and exploits directly from the *Memory* menu in the stock dashboard. As a result, the only hardware you need is:
+Previously, it was nescessary to get a copy of Splinter Cell and use a save game exploit to launch the softmod. Today, this can be done with ENDGAME, which skips the game and exploits directly from the **Memory** menu in the stock dashboard. As a result, the only hardware you need is:
 
 1. An Xbox to USB adapter. I used [this one from AliExpress](https://www.aliexpress.com/item/1005003440265548.html), but you can get these in a variety of places.
-2. A compatible flash drive, which usually means that it's older, or small capacity, of both. I used [this one from AliExpress](https://www.aliexpress.com/item/1005008120319561.html) and it worked great, but you can check out a compatibility list to see if something rattling around in your desk drawer will work.
+2. A compatible flash drive, which usually means that it's older, or small capacity, of both. I used [this one from AliExpress](https://www.aliexpress.com/item/1005008120319561.html) and it worked great, but you can check out a [compatibility list](https://consolemods.org/wiki/Xbox:USB_Device_Compatibility_List) to see if something rattling around in your desk drawer will work.
 
 ### Rocky5's Softmodding Tool
 
@@ -46,7 +46,7 @@ Applications seem to always be called "default.xbe", but if you place each appli
 
 For example, the Insignia Setup Assistant itself is a "default.xbe", so `F:\Applications\Insignia Setup\default.xbe` will appear as `Insignia Setup` in the *Applications* group in your dashboards.
 
-_Note: In UIX-Lite, you'll need to go to *Place* > *Place* > *Place* to have it re-scan for Applications, Games, and Dashboards._
+_Note: In UIX-Lite, you'll need to go to **Settings** > **UIX Settings** > **General Settings** > **Rescan Partitions** to have it re-scan for Applications, Games, and Dashboards._
 
 #### Insignia Setup Assistant
 
@@ -60,11 +60,11 @@ Changes which dashboard starts by default. I used this to change the default das
 
 [Dashloader Customizer](https://github.com/Rocky5/Xbox-Softmodding-Tool/raw/master/Extras%20Disc/Softmod/applications/Dashloader%20Customizer.zip)
 
-_Note: In the application, trying pressing *Left* on the d-pad if you can't figure out what to do._ 
+_Note: In the application, trying pressing **Left** on the d-pad if you can't figure out what to do._ 
 
 #### Chimp
 
-This tool clones the contents of the original hard drive to a new storage device, all on your Xbox without having to use a computer. The idea is that start up Chimp, unplug the DVD drive, and connect your new storage device in place of it. Chimp copies everything over, expands the partitions to fill the empty space, and locks the drive with your original hard drive key. 
+This tool clones the contents of the original hard drive to a new storage device, all on your Xbox without having to use a computer. The idea is to start up Chimp, unplug the DVD drive, and connect your new storage device in place of it. Chimp copies everything over, expands the partitions to fill the empty space, and locks the drive with your original hard drive key. 
 
 Maybe I messed up, but Chimp only expanded my F drive to 127 GB, so I had to use another tool (XBPartitioner) to finish expanding the partition.
 
@@ -80,7 +80,7 @@ _Note: You'll need to use the correct block size, depending on how large your ha
 
 #### Video Select 2
 
-Since I'm in Finland, my Xbox is PAL, but I would much prefer to use NTSC video modes. This application writes a small change to the BIOS, changing the Xbox from PAL to NTSC video modes. After applying the change, the Xbox now has the exact same video options in the dashboard as my NTSC Xboxes back home. I've been using it with RetroTINK 2X-Classic and component cables, getting 480i on my European LG OLED TV.
+Since I'm in Finland, my Xbox is PAL, but I would much prefer to use NTSC video modes. This application writes a small change to the BIOS, changing the Xbox from PAL to NTSC video modes. After applying the change, the Xbox now has the exact same video options in the dashboard as my NTSC Xboxes back home. I've been using it with RetroTINK 2X-Classic and component cables at 480i, ending up with 480p on my European LG OLED TV.
 
 [Video Select 2](https://digiex.net/threads/enigmahs-video-select-2-xbox-region-switcher-ntsc-pal.13817/)
 
@@ -129,7 +129,7 @@ I elected to upgrade my stock 8 GB hard drive to a 256 GB SSD, because:
 
 1. A SATA hard drive or SSD. I went for a 256 GB Kingston SSD, as I can probably put 50 games on it (but I won't, it will be more like 15)
 2. An IDE to SATA adapter, and some way to power two IDE devices at the same time (like a Y cable, if needed).
-3. An 80-wire IDE cable, as the stock 40-wire cable doesn't let the IDE bus go fast enough for things to work. Remember that both of them have 40 _pins_, but the 80-wire cable has a dedicated ground wire for each signal wire, reducing noise the unlocking speeds.
+3. An 80-wire IDE cable, as the stock 40-wire cable doesn't let the IDE bus go fast enough for things to work. Remember that both of them have 40 _pins_, but the 80-wire cable has a dedicated ground wire for each signal wire, reducing noise and unlocking higher speeds.
 
 #### IDE to SATA Adapter
 
@@ -150,7 +150,7 @@ At first, it wasn't plug-and-play. I got an instant "flubber" and Microsoft logo
 To switch from a generic kernel font to a specific one:
 
 1. Launch NKPatcher Settings.
-2. Go to **Kernel Fonts** > **Advanced Features** > **Kernel Font Options** > **Install Kernel Font**
+2. Go to **Kernel Fonts** > **Advanced Features** > **Kernel Font Options** > **Install Kernel Font**.
 
 #### 80-wire IDE Cable
 
@@ -174,6 +174,7 @@ When disasembling your controllers:
 
 1. Look for white circles on the controller PCBs. Keep the wires out of those circles, as the controller plastics touch the PCB at those locations to keep things solid. It's easy to accidentally pinch wires there.
 2. When putting screws back in, turn them backwards with a bit of pressure until you hear and feel the screw "click". Then, turn the screw the right way. This will align the threads.
+3. Tighten the screw.
 
 ### Converting ISO or XISO
 
@@ -181,5 +182,5 @@ If your backups are in ISO or XISO format, you'll need to unpackage them and cop
 
 1. Download and put it in a folder.
 2. `cd` to the folder, and run `python3 -m http.server`
-3. Navigate to (http://127.0.0.1:8000/)[http://127.0.0.1:8000/].
+3. Navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 4. Use the **Unpack** option.
